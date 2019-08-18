@@ -14,5 +14,34 @@ header {
     background: #e9b5a5;
     text-align: center;
     padding: 15px;
-    
+    margin-bottom: 10px;
+}
+
+section {
+    background: #e9b5a5;
+    text-align: center;
+    padding: 15px;
+    width: 50%;
+}
+
+article {
+    background: #f0977c;
+    text-align: center;
+    padding: 15px;
+    width: 40%;
+}
+
+aside {
+    background: #e9b5a5;
+    text-align: center;
+    padding: 15px;
+    width: 50%;
+}
+
+footer {
+    background: #e9b5a5;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
