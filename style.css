@@ -21,27 +21,54 @@ section {
     background: #e9b5a5;
     text-align: center;
     padding: 15px;
-    width: 50%;
+    width: 53%;
+    height: 350px;
+    margin-bottom: 10px;
+    z-index: 1;
+    float: left;
 }
 
 article {
     background: #f0977c;
     text-align: center;
     padding: 15px;
-    width: 40%;
+    width: 94%;
+    height: 270px;
+    z-index: 2;
+    position: relative;
+    top: 30px;
+}
+#article_header{
+    background: #ffffff;
+    height: 100px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 20px;
 }
 
+#article_paragraph{
+    background: #ffffff;
+    height: 100px;
+}
 aside {
     background: #e9b5a5;
     text-align: center;
     padding: 15px;
-    width: 50%;
+    width: 40%;
+    height: 350px;
+    float: right;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: left;
 }
 
 footer {
     background: #e9b5a5;
     text-align: center;
-    padding: 15px;
+    padding: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
